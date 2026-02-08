@@ -1,20 +1,40 @@
+Customer Churn Analysis - Power BI
+
+📌 Project Overview
+
+This project provides a comprehensive analysis of customer retention and churn patterns. By leveraging Power BI, I have transformed raw customer data into an interactive dashboard that identifies high-risk segments and key factors driving customer attrition.
+
+The goal is to provide actionable insights that help businesses improve retention strategies and maximize customer lifetime value.
+
+📊 Key Features
+
+Churn Rate Overview: At-a-glance view of the total churn percentage and customer loss.
+
+Demographic Analysis: Breakdown of churn by age, gender, and geography.
+
+Account Information: Analysis of contract types (Month-to-month vs. Annual), payment methods, and tenure.
+
+Service Usage: Insights into how specific services (Internet, Tech Support, etc.) impact the likelihood of a customer leaving.
+
+Interactive Filters: Drill down into specific customer segments to find localized issues.
+
+🛠️ Tools Used
+
+Power BI Desktop: For data modeling and visualization.
+
+DAX (Data Analysis Expressions): Used to create custom measures for churn rates and KPIs.
+
+Power Query: For data cleaning and transformation (ETL).
 
 
 
+Data Preparation
 
-
-
-1. Data Preparation
 The project involved several ETL (Extract, Transform, Load) steps and data modeling to ensure the dataset was ready for analysis:
 
-
 Data Cleaning: Power Query was used to handle missing values and perform data transformations. This included cleaning customer demographic data (age, gender) and account details.
-+3
-
 
 Data Modeling: A robust data model was established within Power BI, linking customer tables with service usage and contract information.
-+2
-
 
 Feature Engineering: New columns were likely created to categorize customers into segments like "Tenure Groups" (e.g., 0-6 months, 1-2 years) to identify when churn is most likely to occur.
 
@@ -22,45 +42,39 @@ DAX Measures: Custom DAX measures were developed to calculate key performance in
 
 
 Total Churn & Churn Rate: To track the percentage of customers leaving.
-+1
-
 
 Customer Lifetime Value (CLV): To understand the financial impact of retention.
-+1
 
-2. Analysis Performed
+Analysis Performed
 The analysis focused on identifying patterns and drivers of customer attrition:
 
-
 Churn Driver Identification: Evaluated which factors—such as high monthly charges, contract type, or lack of technical support—most strongly correlated with churn.
-+1
-
 
 Contract & Account Analysis: Compared the churn rates between "Month-to-month" contracts and long-term annual plans.
 
-
 Service Impact Analysis: Investigated how specific services (like Online Security or Tech Support) affected customer loyalty.
-
 
 Demographic Profiling: Analyzed churn rates across different age groups and geographic regions to find high-risk segments.
 
-
 Tenure Trends: Identified critical "danger zones" in the customer lifecycle, such as the first six months of service.
 
-3. Business Recommendations
-Based on the dashboard's findings, the following strategies are recommended to improve retention:
+💡 Insights Gained
 
+Customers with Month-to-Month contracts show a significantly higher churn rate compared to those on long-term plans.
+
+Users without Tech Support services are 2x more likely to churn.
+
+High monthly charges correlate with increased attrition in the first 6 months of tenure.
+
+Business Recommendations
+Based on the dashboard's findings, the following strategies are recommended to improve retention
 
 Incentivize Long-Term Contracts: Offer discounts or value-added services to transition "Month-to-month" customers to annual contracts, as these users have lower churn rates.
 
-
 Targeted Support Bundles: Proactively offer technical support and online security services to high-risk segments, as customers with these services tend to stay longer.
-
 
 Early Intervention Programs: Launch specific engagement campaigns (e.g., check-in calls or loyalty rewards) for customers in their first six months of tenure.
 
-
 Pricing Strategy Review: Evaluate the pricing for high-tier plans that show high attrition to ensure the perceived value matches the monthly cost.
-
 
 Personalized Retention Offers: Use the dashboard's filtering capabilities to identify specific regions or demographic groups with high churn and deploy localized marketing tactics.
